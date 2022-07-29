@@ -1,0 +1,106 @@
+    @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Fredoka+One&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-seri;
+        background-color: rgb(235, 232, 232);
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .container {
+        align-items: center;
+    }
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        margin: 50px;
+    }
+    
+    .user-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    input {
+        width: 60%;
+        height: 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 2px;
+        outline: none;
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    .to-btn {
+        cursor: pointer;
+        border: none;
+        width: 70px;
+        text-align: center;
+        float: left;
+        background: #b9b7b7;
+        color: rgb(10, 10, 10);
+        font-size: 1em;
+        padding: 10px;
+    }
+    
+    .to-btn:hover {
+        background-color: rgb(180, 176, 176);
+    }
+    
+    .todo-items {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    ul li {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-size: 1em;
+        background-color: #eee;
+    }
+    
+    ul li:hover {
+        background: #ddd;
+    }
+    
+    ul:checked {
+        background: rgb(182, 181, 181);
+        color: #fff;
+        text-decoration: line-through;
+    }
+    
+    ul button {
+        cursor: pointer;
+        border: none;
+        width: 70px;
+        text-align: center;
+        float: left;
+        background: #b9b7b7;
+        color: rgb(10, 10, 10);
+        font-size: 1em;
+        padding: 10px;
+    }
+    
+    ul li button :hover {
+        background-color: rgb(243, 63, 63);
+    }
